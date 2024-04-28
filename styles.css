@@ -1,0 +1,12 @@
+body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+#side-content {
+    background-image: url("resources/unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
