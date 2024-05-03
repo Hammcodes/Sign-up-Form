@@ -1,12 +1,64 @@
 body {
-    display: flex;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #side-content {
     background-image: url("resources/unsplash.jpg");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    width: 30%;
+    height: 100vh;
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
+
+#header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 15%;
+    background-color: rgb(0, 0, 0, 0.3);
+    color: white;
+    width: 100%;
+    height: 20%;
+}
+
+h1 {
+    font-size: calc(1rem + 3.8vw);
+}
+
+#odin-logo {
+    width: 4.8vw;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    font-size: 12px;
+}
+
+footer > p,
+p > a {
+    color: white;
+}
+
+main {
+    width: 70%;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+
+
+
 
