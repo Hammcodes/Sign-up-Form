@@ -9,12 +9,14 @@ body {
     display: flex;
 }
 
+
+/*Styling for side banner*/
 #side-content {
     background-image: url("resources/unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 35%;
-    height: 100vh;
+    height: 140vh;
     min-width: 200px;
     display: flex;
     flex-direction: column;
@@ -50,8 +52,8 @@ footer {
     font-size: 12px;
 }
 
-footer > p,
-p > a {
+#credit,
+#credit > a {
     color: white;
 }
 
@@ -59,6 +61,8 @@ main {
     width: 65%;
 }
 
+
+/*Styling for introduction section of the main section*/
 #introduction {
     padding: 7vw 12vw 30px 30px;
     background-color: rgb(249,250,251);
@@ -69,6 +73,8 @@ main {
 #introduction span {
     font-style: italic;
 }
+
+/*Styling for form control elements*/
 
 #form-container {
     padding-left: 30px;
@@ -134,3 +140,11 @@ button:hover {
     cursor: pointer;
 }
 
+#log-in {
+    margin: 25px 30px
+}
+
+#log-in > a {
+    text-decoration: none;
+    color: #608046;
+}
