@@ -60,28 +60,22 @@ main {
 }
 
 #introduction {
-    padding: 7vw 12vw 30px 25px;
+    padding: 7vw 12vw 30px 30px;
     background-color: rgb(249,250,251);
     font-weight: bold;
     font-size: calc(0.8rem + 0.5vw);
 }
 
+#introduction span {
+    font-style: italic;
+}
+
 #form-container {
-    padding-left: 25px
+    padding-left: 30px
 }
 
 h2 {
     color: #1F2937;
-}
-
-li {
-    margin-right: calc(10px + 4vw);
-    margin-bottom: 0.8vw;
-}
-
-label {
-    display: block;
-    font-size: 0.8rem;
 }
 
 ul {
@@ -92,7 +86,38 @@ ul {
     list-style-type: none;
 }
 
+li {
+    margin-right: calc(12px + 4vw);
+    margin-bottom: 0.8vw;
+}
 
+label {
+    font-size: 0.8rem;
+    letter-spacing: 0.2vw;
+}
+
+input {
+    display: block;
+    border: 1px solid rgb(190, 190, 190);
+    border-radius: 2px;
+    font-size: 1rem;
+    padding: 4px;
+}
+
+input:focus {
+    border: none;
+    outline: 2px solid blue;
+    box-shadow: 2px 2px 5px #808080;
+}
+
+input:invalid {
+    border: 1px solid red;
+}
+
+#p-error {
+    font-size: 14px;
+    color: red;
+}
 
 
 
